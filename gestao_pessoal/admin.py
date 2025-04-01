@@ -22,11 +22,16 @@ class FuncionarioAdmin(admin.ModelAdmin):
     search_fields = ('nome', 'sobrenome', 'email')
     ordering = ('nome', 'sobrenome')
     fieldsets = (
-        ('Informações Pessoais', {
-            'fields': ('nome', 'sobrenome', 'email', 'telefone') }),
-    
+   ('Informações Pessoais', {
+            'fields': ('nome', 'sobrenome', 'email', 'telefone')
+        }),
+        ('Informações Profissionais', {
+            'fields': ('setor', 'cargo', 'data_admissao')
+        }),
+        ('Detalhes Financeiros', {
+            'fields': ('salario_atual',)
+        }),
     )
-
     def nome_completo(self, obj):
         return f"{obj.nome} {obj.sobrenome}"
     nome_completo.short_description = 'Nome Completo'

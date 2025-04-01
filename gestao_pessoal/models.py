@@ -46,7 +46,7 @@ class Funcionario(models.Model):
     setor = models.ForeignKey(Setor, on_delete=models.SET_NULL, null=True , verbose_name="Setor")
     cargo = models.ForeignKey(Cargo,on_delete=models.SET_NULL,null=True, verbose_name ="Cargo")
     salario_atual= models.DecimalField(max_digits=10, decimal_places=2) 
-    foto = models.ImageField(upload_to="foto_funcionarios/", blank=True, null=True)
+ 
 
 
     def __str__(self):
