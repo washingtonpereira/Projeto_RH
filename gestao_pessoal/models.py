@@ -43,9 +43,9 @@ class Funcionario(models.Model):
     email = models.EmailField(unique=True)
     telefone = models.CharField(max_length=15, blank=True, null=True)
     data_admissao = models.DateField()
-    setor = models.ForeignKey(Setor, on_delete=models.SET_DEFAULT, null=True, verbose_name="Setor")
-    cargo = models.ForeignKey(Cargo,on_delete=models.SET_DEFAULT, null=True, verbose_name ="Cargo")
-    Salario_atual = models.DecimalField(max_digits=10, decimal_places=2) 
+    setor = models.ForeignKey(Setor, on_delete=models.SET_NULL, null=True , verbose_name="Setor")
+    cargo = models.ForeignKey(Cargo,on_delete=models.SET_NULL,null=True, verbose_name ="Cargo")
+    salario_atual= models.DecimalField(max_digits=10, decimal_places=2) 
     foto = models.ImageField(upload_to="foto_funcionarios/", blank=True, null=True)
 
 
