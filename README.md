@@ -32,8 +32,8 @@ O Projeto RH é uma aplicação web para gerenciar informações de recursos hum
 
 ## 🧠 Mapa Mental do Sistema de RH
 
-Este diagrama resume a estrutura geral do sistema e suas funcionalidades principais.
-![Mapa Mental do Sistema](docs/mapa_mental_sistema.jpg)
+O diagrama no link abaixo diagrama resume a estrutura geral do sistema e suas funcionalidades principais.
+
 
 [Ver Mapa Mental do Sistema](https://raw.githubusercontent.com/washingtonpereira/Projeto_RH/main/docs/mapa_mental_sistema.jpg)
 
