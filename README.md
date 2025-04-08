@@ -36,3 +36,8 @@ O Projeto RH é uma aplicação web para gerenciar informações de recursos hum
 
    ```bash
    git clone https://github.com/washingtonpereira/Projeto_RH.git
+
+2. **Navegue até o diretório do projeto**:
+
+   ```bash
+   git clone https://github.com/washingtonpereira/Projeto_RH.git
