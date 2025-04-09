@@ -41,7 +41,7 @@ O diagrama no link abaixo diagrama resume a estrutura geral do sistema e suas fu
 
  **Clone o repositório**:
 
-   ```bash
+   bash
    git clone https://github.com/washingtonpereira/Projeto_RH.git
 
    # Crie e ative um ambiente virtual
