@@ -39,9 +39,53 @@ O diagrama no link abaixo diagrama resume a estrutura geral do sistema e suas fu
 
 ## Instalação
 
-1. **Clone o repositório**:
+ **Clone o repositório**:
 
    ```bash
    git clone https://github.com/washingtonpereira/Projeto_RH.git
 
+   # Crie e ative um ambiente virtual
+
+## Como Usar
+python -m venv venv
+venv\Scripts\activate  # No Windows
+# ou
+source venv/bin/activate  # No Linux/Mac
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Realize as migrações
+python manage.py migrate
+
+# Crie um superusuário
+python manage.py createsuperuser
+
+# Inicie o servidor
+python manage.py runserver
+
+
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Se você quiser melhorar algo, siga os passos abaixo:
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature:
    
+   git checkout -b minha-nova-feature
+
+   git commit -m 'Adiciona nova funcionalidade'
+
+   git push origin minha-nova-feature
+
+
+
+## 📬 Contato 
+
+Se tiver dúvidas, sugestões ou quiser trocar uma ideia:
+
+**Washington Luis de Assis Pereira**  
+📍 Niterói - RJ  
+📧 slash.o.teobaldo@gmail.com  
+🔗 [GitHub](https://github.com/washingtonpereira)
