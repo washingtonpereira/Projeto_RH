@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background:#F0F4F8;
+  
+  }
+
+ img{
+  
+    width: 100vw;
+    height: 98vh;
+    
+  
+  }
+  
+  
+ .banner{
+  background-image: url(/gestao_pessoal/static/img/cytonn-photography-n95VMLxqM2I-unsplash.jpg); /* caminho da imagem */
+  background-size: cover; /* cobre toda a tela */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* para efeito parallax leve */
+ }

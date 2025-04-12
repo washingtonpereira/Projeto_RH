@@ -30,6 +30,13 @@ O Projeto RH é uma aplicação web para gerenciar informações de recursos hum
 - **Banco de Dados**: SQLite (padrão do Django, pode ser alterado conforme necessidade)
 - **Front-end**: HTML, CSS e JavaScript
 
+## 🧠 Mapa Mental do Sistema de RH
+
+O diagrama no link abaixo diagrama resume a estrutura geral do sistema e suas funcionalidades principais.
+
+
+[Ver Mapa Mental do Sistema](https://raw.githubusercontent.com/washingtonpereira/Projeto_RH/main/docs/mapa_mental_sistema.jpg)
+
 ## Instalação
 
 1. **Clone o repositório**:
@@ -37,7 +44,11 @@ O Projeto RH é uma aplicação web para gerenciar informações de recursos hum
    ```bash
    git clone https://github.com/washingtonpereira/Projeto_RH.git
 
+<<<<<<< HEAD
 2. **Navegue até o diretório do projeto**:
 
    ```bash
    git clone https://github.com/washingtonpereira/Projeto_RH.git
+=======
+   
+>>>>>>> main
